@@ -88,9 +88,4 @@ This application is designed for easy deployment on a platform like Render for a
 5.  **Deploy:** Click "Create Web Service". Render will build and deploy your application, providing a public URL.
     
 
-Project Diagrams
-----------------
 
-The application includes a built-in section with diagrams that explain its architecture and user flow.
-
-Use Case Diagram
