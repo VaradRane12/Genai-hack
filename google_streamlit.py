@@ -206,7 +206,7 @@ def show_branding_tool():
             st.info(st.session_state.generated_content['taglines'])
 
 # --- Main App Sidebar and Navigation ---
-st.sidebar.title("AI Artisan Co-Pilot")
+st.sidebar.title("Vision Craft")
 st.sidebar.markdown("**Hackathon Submission**")
 # --- UPDATED: Language Selection ---
 st.sidebar.subheader("Language Settings")
@@ -234,8 +234,7 @@ tool_selection = st.sidebar.radio(
     )
 )
 st.sidebar.divider()
-st.sidebar.info("This prototype leverages multilingual, multimodal, and context-aware generative AI.")
-
+J
 # --- Page Routing ---
 if tool_selection == "Visual Product Analyzer":
     show_visual_analyzer()
