@@ -234,7 +234,7 @@ tool_selection = st.sidebar.radio(
     )
 )
 st.sidebar.divider()
-J
+
 # --- Page Routing ---
 if tool_selection == "Visual Product Analyzer":
     show_visual_analyzer()
